@@ -1,0 +1,22 @@
+/*Выравниваем содержимое ячеек таблиц по центру*/
+	table tr th, table tr td {
+		text-align:center !important;
+	}
+
+/*Стили для ссылок, которые должны быть подчеркнутыми*/ 
+	a.href  {
+        text-decoration: underline !important;
+    }
+	
+	a.href:hover, a.href:focus {
+        text-decoration: none !important;
+    }
+
+/*Стили пунктов меню "Почта"*/ 	
+    #mail {
+		list-style-type:none !important;
+	}	
+	
+	a.active_menu {
+        text-decoration: none !important;
+    }
